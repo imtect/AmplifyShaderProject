@@ -1,0 +1,40 @@
+# 以'#'开始的行，被视为注释.                                                                                                                          
+
+# 忽略掉所有文件名是 foo.txt的文件.
+
+# 忽略所有生成的 html文件,
+
+# foo.html是手工维护的，所以例外.
+
+# 忽略所有.o和 .a文件.
+
+# 配置语法：
+# 以斜杠“/”开头表示目录；
+# 以星号“*”通配多个字符；
+# 以问号“?”通配单个字符
+# 以方括号“[]”包含单个字符的匹配列表；
+# 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+
+.vs/
+/.idea
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Jj]01/
+/[Jj]02/
+/[Ll]01/
+/[Ll]02/
+/[Ll]03/
+/[Gg]01/
+
+*.csproj
+*.unityproj
+*.sln
+*.rar
+*.zip
+
+Assets/Tools/sucai/
